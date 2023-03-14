@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 18vh;
+}
+section#heroe{
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+        font-size: 3rem;
+text-transform: uppercase;
+    }
+h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .lista-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .detalles-proyectos{
+        border: 2px solid brown;
+        width: 300px;
+        border-radius: 5px;
+        margin: 20px;
+        
+    }
+
+    .detalles-proyectos img{
+        width: 100%;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: black;
+        background-color: lightcoral;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    nav ul li{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px 20px;
+        background-color: whitesmoke;
+        border-radius: 20px;
+    }
+
